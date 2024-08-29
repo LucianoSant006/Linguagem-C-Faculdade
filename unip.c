@@ -1,22 +1,25 @@
 #include <stdio.h>
 
-
 int main()
 {
-    int a,b;
-       printf("Digite um número");
-    scanf("%d",&a);
-
+    float a,b,c;
+    printf("Enter an side of triangle ");
+    scanf("%f",&a);
+     printf("Enter an side of triangle ");
+    scanf("%f",&b);
+     printf("Enter an side of triangle ");
+    scanf("%f",&c);
+    
+   if (a == b && b == c) {
+            printf("It is an equilateral triangle.\n");
+        }
+     else if (a == b || b == c || a == c) {
+            printf("It is an isosceles triangle.\n");
+        } else {
+            printf("It is a scalene triangle.\n");
+        }
     
     
-    if(a % 2 ==0){
-        
-        printf("é apar")
-    }else{
-        printf("é impar")
-    }
-    
-
     return 0;
     
 }
