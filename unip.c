@@ -3,16 +3,18 @@
 
 int main()
 {
-    int a,b,c;
-    printf("Digite um número \n ");
+    int a,b;
+       printf("Digite um número");
     scanf("%d",&a);
-    printf("Digite um número \n");
-    scanf("%d",&b);
-     
-        c =a + b;
-        
-    printf("%d plus %d is %d",a,b,c);
+
     
+    
+    if(a % 2 ==0){
+        
+        printf("é apar")
+    }else{
+        printf("é impar")
+    }
     
 
     return 0;
