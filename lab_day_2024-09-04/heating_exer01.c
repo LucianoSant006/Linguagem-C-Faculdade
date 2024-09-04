@@ -1,26 +1,18 @@
 #include <stdio.h>
-#include <stdlib.h>
-
-
-
-
 
 int main()
 {
-    float a,b,c,answer;
- 
-    printf("digite um número");
-    scanf("%f",&a);
-    printf("digite um número");
-    scanf("%f",&b);
-    printf("digite um número");
-    scanf("%f",&c);
+    int n;
+    printf("Digite um número: ");
+    scanf("%d",&n);
     
+    for(int i = 0;i < n+1;i++)
+    {
+        
+        
     
-    answer = abs(a) + abs(b) + abs(c);
-    
-    printf("%.2f",answer);
-    
-    
+        printf("%d \n",i);
+        
+    }
     return 0;
 }
